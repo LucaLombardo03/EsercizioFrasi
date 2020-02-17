@@ -35,7 +35,7 @@ namespace EsercizioFrasi
             i++;
             TxtFrasi.Clear();
             TxtFrasi.Focus();
-            if (i >= 5)
+            if (i >= 5) 
             {
                 BtnInserisci.IsEnabled = false;
                 BtnStampa.IsEnabled = true;
