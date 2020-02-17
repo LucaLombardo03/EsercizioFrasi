@@ -9,11 +9,12 @@
     <Grid>
         <TextBox Name="TxtFrasi" HorizontalAlignment="Left" Height="101" Margin="41,64,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="267"/>
         <Button x:Name="BtnInserisci" Content="INSERISCI" HorizontalAlignment="Left" Height="43" Margin="335,64,0,0" VerticalAlignment="Top" Width="181" Click="Inserisci_Click"/>
-        <Button x:Name="BtnStampa" Content="STAMPA" HorizontalAlignment="Left" Height="43" Margin="335,122,0,0" VerticalAlignment="Top" Width="181" IsEnabled="False" Click="BtnStampa_Click"/>
+        <Button x:Name="BtnStampa" Content="STAMPA" HorizontalAlignment="Left" Height="43" Margin="335,112,0,0" VerticalAlignment="Top" Width="181" IsEnabled="False" Click="BtnStampa_Click"/>
         <Button x:Name="BtnOrdina" Content="ORDINA" HorizontalAlignment="Left" Height="43" Margin="534,64,0,0" VerticalAlignment="Top" Width="181" Grid.ColumnSpan="2" IsEnabled="False" Click="BtnOrdina_Click"/>
-        <Button x:Name="BtnPubblica" Content="PUBBLICA" HorizontalAlignment="Left" Height="43" Margin="534,122,0,0" VerticalAlignment="Top" Width="181" Grid.ColumnSpan="2" IsEnabled="False"/>
-        <Label Name="LblStringa" Content="" HorizontalAlignment="Left" Height="101" Margin="41,246,0,0" VerticalAlignment="Top" Width="267"/>
-        <Label Name="LblOrdinato" Content="" HorizontalAlignment="Left" Height="101" Margin="335,246,0,0" VerticalAlignment="Top" Width="267"/>
+        <Button x:Name="BtnPubblica" Content="PUBBLICA" HorizontalAlignment="Left" Height="43" Margin="534,112,0,0" VerticalAlignment="Top" Width="181" IsEnabled="False" Click="BtnPubblica_Click"/>
+        <TextBox Name="TxtStampa" HorizontalAlignment="Left" Height="101" Margin="41,234,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="267" />
+        <TextBox Name="TxtOrdinato" HorizontalAlignment="Left" Height="101" Margin="335,234,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="267"/>
+        <Button Content="RESET" HorizontalAlignment="Left" Height="43" Margin="534,160,0,0" VerticalAlignment="Top" Width="181" Click="Reset_Click"/>
 
     </Grid>
 </Window>
